@@ -24,7 +24,7 @@
   "require": {
     "php": ">=5.4.0",
     "yiisoft/yii2": ">=2.0.6",
-    "fancyecommerce/fec":"dev-abc"
+    "fancyecommerce/fec":"*"
   },
   "autoload": {
     "psr-4": {
@@ -33,10 +33,5 @@
   },
   "config": {
     "process-timeout": 1800
-  },"repositories": [
-  {
-    "type": "vcs",
-    "url":"https://github.com/CODE7070/yii2-fec.git"
   }
-]
 }
