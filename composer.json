@@ -4,10 +4,10 @@
   "keywords": [
     "yii2",
     "fec",
-	"ecommerce",
-	"fec_admin",
-	"dwz",
-	"jui"
+    "ecommerce",
+    "fec_admin",
+    "dwz",
+    "jui"
   ],
   "homepage": "https://github.com/fancyecommerce/yii2_fec_admin",
   "type": "yii2-extension",
@@ -24,7 +24,7 @@
   "require": {
     "php": ">=5.4.0",
     "yiisoft/yii2": ">=2.0.6",
-    "fancyecommerce/fec":"*"
+    "fancyecommerce/fec": "dev-abc"
   },
   "autoload": {
     "psr-4": {
@@ -33,5 +33,19 @@
   },
   "config": {
     "process-timeout": 1800
-  }
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/CODE7070/yii2_fecshop"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/CODE7070/yii2_fec_admin"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/CODE7070/yii2-fec"
+    }
+  ]
 }
